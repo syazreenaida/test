@@ -1,0 +1,24 @@
+.card {
+    flex-direction: row;
+    padding: 10px;
+    margin-bottom: 30px;
+  
+  }
+  .card img {
+    width: 30%;
+  }
+  
+.image-book{
+    width: 200px; 
+    height: 200px; 
+    padding: 10px;
+  }
+
+.card-description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+            line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
